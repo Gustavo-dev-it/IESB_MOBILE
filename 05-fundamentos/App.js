@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar'; 
 import { StyleSheet, Text, View } from 'react-native';
+import PrimeiroComponente from './componentes/PrimeiroComponente';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Pedro Senta e Rebola lentinho</Text>
+      
+    <PrimeiroComponente/>
+
+
       <StatusBar style="auto" />
     </View>
   );
